@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/************** LISTE DANS NAV HEADER **************/
+
+nav ul{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 10%;
+    background-color: rgba(0, 0, 0, 0.6);   
+}
+nav ul li{ /* listes dans header */
+    text-align: center;
+    padding: 25px 0px;
+    width: 180px;
+    display: flex;
+    float: left;
+    color:white;
+    font-family: Montserrat;
+}
+
+/************** IMAGE FOND DINOSAURES ET ENTRÉE LOGO ET TEXTES **************/
+
+header{ /* image du fond dinosaures */
+    background-image: url(../img/dinosaure.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.logo{ /* logo Jurassic World */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{ /* regardez un dinosaure droit dans les yeux */
+    color: black;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.entree img{ /* image de l'entrée */
+    width: 700px;
+    margin: 0px 600px;
+}
+
+h1{ /* texte après l'entrée */
+    color:black;
+    font-family: Montserrat;
+    font-weight: lighter;
+    margin: 0px 600px;
+    font-size: 100%;
+}
+
+h2{ /* texte Jurassic world: Un voyage à couper le souffle!
+    du 14 avril au 2 Septembres 2018
+    à la Cité du Cinema
+    Paris/saint-Denis
+    
+    Réservez vos places dés aujourd'hui
+    et souvenez-vous... si quelque chose vous poursuit, COUREZ
+    !  */
+    color: black;
+    font-family: Montserrat;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h3{ /* bouton réserver */
+    font-weight: bolder;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 100%;
+    border: 1px solid white;
+    width: 10%;
+    background-color: #1C5F81;
+    line-height: 200%;
+    height: 35px;
+    color: white;
+    margin: 0px 850px;
+    padding: 10px;
+}
+
+/************** TARIFS HORAIRES TRANSPORTS **************/
+
+h4{ /* TARIFS */
+    color: black;
+    font-family: Montserrat;
+    letter-spacing: 7px;
+}
+
+.prix{ /* prix enfant adulte famille audioguide */
+    color: black;
+    font-family: Montserrat;
+}
+
+.far{ /* icône carte */
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+.prix, .far{ /* tarifs, textes enfant adulte famille, icône carte */
+    margin: 40px 350px;
+}
+
+h6{ /* bouton acheter en ligne */
+    font-weight: bolder;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 100%;
+    border: 1px solid white;
+    width: 10%;
+    background-color: #1C5F81;
+    line-height: 200%;
+    height: 35px;
+    color: white;
+    margin: 0px 350px;
+    padding: 10px;
+}
+
+hr{ /* trait */
+    width: 500px;
+    margin: 0px 350px;
+    color: rgba(0, 0, 0, 0.33);
+}
+
+h5{ /* titre horaire */
+    color: black;
+    letter-spacing: 7px;
+    font-family: Montserrat;
+}
+
+.horaires{ /* texte dans horaires */
+    margin: 0px 350px;
+    font-family: Montserrat;
+}
+
+span{ /* mots en gras */
+    font-weight: bolder;
+}
+
+.commentvenir{ /* titre comment venir */
+    color: black;
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 180%;
+    margin: -590px 1000px;
+    width: 100%;
+    letter-spacing: 7px;
+}
+
+.rue{ /* cité cinéma rue Ampère */
+    margin: 670px 1000px;
+    width: 100%;
+    font-family: Montserrat;
+}
+
+.transports img{ /* image métro 13 */
+    width: 2%;
+}
+
+.carte{ /* plan */
+    width: 10%;
+    margin: 300px 1000px;
+}
+
+.transports{ /* texte des transports */
+    color: darkblue;
+    font-family: Montserrat;
+    margin: -270px 1000px;
+    width: 100%;
+}
+
+/************** PARTENAIRES **************/
+
+.partenaires{ /* titre partenaires */
+    color: black;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.leslogos img{ /* logos partenaires */
+    width: 5%;
+    display: flex;
+    text-align: center;
+    margin: 150px;
+    float: left;
+}
+
+/************** FOOTER **************/
+
+footer{
+    color:white;
+    margin: 500px 60px;
+    background-color: black;
+    font-family: Montserrat;
+    font-weight: bold;
+    height: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+footer img{
+    float: right;
+}
